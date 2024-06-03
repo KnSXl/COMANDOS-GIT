@@ -26,21 +26,10 @@
 - `git log`: Mostra o histórico de commits.
 - `git log --oneline`: Mostra o histórico de commits de forma resumida.
 
-## Branching e Merging
-
-### Comandos Básicos
-
+#### Branching
 - `git branch`: Lista todas as branches locais.
 - `git branch [nome_da_branch]`: Cria uma nova branch.
-- `git checkout [nome_da_branch]`: Muda para a branch especificada.
-- `git checkout -b [nome_da_branch]`: Cria e muda para uma nova branch.
-- `git merge [nome_da_branch]`: Faz merge da branch especificada na branch atual.
 - `git branch -d [nome_da_branch]`: Deleta a branch especificada.
-
-### Comandos Avançados
-
-#### Branching
-
 - `git branch -m [nome_novo]`: Renomeia a branch atual para `[nome_novo]`.
 - `git branch -M [nome_novo]`: Força a renomeação da branch atual para `[nome_novo]`.
 - `git branch --move [nome_antigo] [nome_novo]`: Renomeia uma branch de `[nome_antigo]` para `[nome_novo]`.
@@ -48,9 +37,12 @@
 - `git branch -a`: Lista todas as branches, tanto locais quanto remotas.
 - `git branch --merged`: Lista todas as branches que foram mescladas na branch atual.
 - `git branch --no-merged`: Lista todas as branches que não foram mescladas na branch atual.
+- `git checkout [nome_da_branch]`: Muda para a branch especificada.
+- `git checkout -b [nome_da_branch]`: Cria e muda para uma nova branch.
 
 #### Merging
 
+- `git merge [nome_da_branch]`: Faz merge da branch especificada na branch atual.
 - `git merge --no-ff [nome_da_branch]`: Faz um merge da branch especificada na branch atual, sempre criando um commit de merge.
 - `git merge --squash [nome_da_branch]`: Faz um merge das mudanças da branch especificada na branch atual, mas as coloca na área de stage sem criar um commit de merge.
 - `git merge --abort`: Aborta um merge em andamento e restaura o estado da branch para antes do início do merge.
