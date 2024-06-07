@@ -26,7 +26,7 @@
 - `git log`: Mostra o histórico de commits.
 - `git log --oneline`: Mostra o histórico de commits de forma resumida.
 
-#### Branching
+## Branching
 - `git branch`: Lista todas as branches locais.
 - `git branch [nome_da_branch]`: Cria uma nova branch.
 - `git branch -d [nome_da_branch]`: Deleta a branch especificada.
@@ -40,7 +40,7 @@
 - `git checkout [nome_da_branch]`: Muda para a branch especificada.
 - `git checkout -b [nome_da_branch]`: Cria e muda para uma nova branch.
 
-#### Merging
+## Merging
 
 - `git merge [nome_da_branch]`: Faz merge da branch especificada na branch atual.
 - `git merge --no-ff [nome_da_branch]`: Faz um merge da branch especificada na branch atual, sempre criando um commit de merge.
@@ -48,7 +48,7 @@
 - `git merge --abort`: Aborta um merge em andamento e restaura o estado da branch para antes do início do merge.
 - `git merge --continue`: Continua o processo de merge após resolver conflitos.
 
-#### Rebasing
+## Rebasing
 
 - `git rebase -i [commit]`: Inicia uma rebase interativa a partir do commit especificado.
 - `git rebase --onto [nova_base] [base_antiga] [branch]`: Rebase a `[branch]` para começar a partir de `[nova_base]` em vez de `[base_antiga]`.
