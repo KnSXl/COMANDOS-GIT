@@ -75,6 +75,7 @@
 
 - `git push origin --delete [branch]`: Deleta uma branch remota.
 - `git fetch origin`: Atualiza as referências remotas, mas não faz merge ou rebase.
+- `git fetch --prune origin`: Atualiza as referências remotas e remove referências locais de branches remotas que não existem mais no remoto.
 - `git pull origin [branch]`: Faz pull das mudanças de uma branch remota específica.
 
 ## Atualização e Publicação
