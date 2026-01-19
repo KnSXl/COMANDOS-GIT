@@ -91,6 +91,8 @@
 - `git stash list`: Lista todas as stashes.
 - `git stash apply`: Aplica a última stash armazenada.
 - `git stash pop`: Aplica e remove a última stash.
+- `git stash push -m "Nome da stash" arquivo1.js arquivo2.js -u`: Criar um stash com nome
+- `git stash pop stash@{Número da stash que deseja}`: Aplicar stash
 
 ## Inspeção e Comparação
 
